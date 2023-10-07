@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(37, 37, 37);
+  }
+
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+
+  li a.active {
+    background-color: #aa0404;
+    color: white;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #161616;
+    color: white;
+  }
+
+  li a:hover {
+    background-color: #7e0000;
+    color: white;
+  }
