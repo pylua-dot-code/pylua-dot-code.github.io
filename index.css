@@ -59,3 +59,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.projectdiv {
+    padding: 10px;
+    background-color: #131313;
+}
+.project {
+    padding: auto;
+    text-align: center;
+    width:max-content;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+h3 {
+    padding: auto;
+}
